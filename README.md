@@ -1,9 +1,10 @@
 
 使用方法
 	
-	1. pyinstaller -F qiangchang_UI.py  (-w 可不顯示cmd)
+	1. 方法1： pyinstaller -F qiangchang_UI.py  (-w 可不顯示cmd)
+	   生成exe 文件。
 
-	2. 使用不帶界面的script，文件在script下
+	2. 方法2：使用不帶界面的script，文件在script下
 
 
 注意事項：
