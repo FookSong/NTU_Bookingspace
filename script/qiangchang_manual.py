@@ -32,7 +32,7 @@ def browser_start():
 		url = 'https://info2.ntu.edu.tw/facilities/PlaceGrd.aspx?nFlag=0&placeSeq=1&dateLst='
 
 	url = url + date
-	browser = Browser('chrome')
+	browser = Browser('chrome',executable_path='./chromedriver.exe')
 	browser.visit(login_url)
 	browser.find_by_text(u"學生登入").click()
 	browser.find_by_name('user').fill(usr_name)
