@@ -1,3 +1,10 @@
+使用方法
+	1. pyinstaller -F qiangchang_UI.py  (-w 可不顯示cmd)
+
+	2. 使用不帶界面的script，文件在script下
+
+
+注意事項：
 1.選擇目錄下你對應的Chrome版本chromedriver.exe解壓到當前文件夾目錄下。
 (必須要版本兼容，如果是64-66可能在66版本會出問題，請下最新的chromedriver 65-67)
 2.如果沒有你driver的版本(目前只有下兩種版本)，請去這個網址下載對應版本。（64位下WIN32即可）
