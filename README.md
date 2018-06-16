@@ -1,4 +1,6 @@
+
 使用方法
+	
 	1. pyinstaller -F qiangchang_UI.py  (-w 可不顯示cmd)
 
 	2. 使用不帶界面的script，文件在script下
